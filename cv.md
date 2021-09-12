@@ -24,10 +24,11 @@ function everyLoop(array, term) {
 }
 ```
 ## Work experience
-School and university project, ex
+#### School and university project, ex
 * Musically Caffee (JavaScript, TypeScript, SCSS, HTML, Shell)
 * RedPeas Museum (JasaScript, TypeScript, SCSS, HTML, Shell, Node.js, lua, React)
-Course projects, ex
+
+#### Course projects, ex
 * Brain games (JavaScript)
 * Vadito store (HTML, CSS, JavaScript)
 ## Education
