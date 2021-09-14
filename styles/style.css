@@ -316,3 +316,35 @@ h3 {
 .progress-bar>.hard-work {width: 85%;}
 .progress-bar>.trainability {width: 90%;}
 
+footer {
+    padding: 25px 0 50px 50px;
+}
+
+.footer-head {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+footer .wrap {
+    display: flex;
+    align-items: center;justify-content: space-between;
+}
+
+.footer-link {
+    display: block;
+    height: 75px;
+    width: auto;
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-link img {
+    display: block;
+    height: 100%;
+}
+
+.year {
+    font-size: 50px;
+    font-weight: 500;
+}
