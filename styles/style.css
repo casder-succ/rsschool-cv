@@ -237,3 +237,26 @@ h3 {
     color: white;
     text-decoration: none;
 }
+
+.exp {
+    padding-left: 25px;
+}
+
+.exp-item {
+    padding: 20px 0;
+}
+
+.exp-item:not(:last-child) {
+    border-bottom: 3px solid black;
+}
+
+.exp-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.exp-info {
+    color: #838386;
+}
