@@ -217,6 +217,10 @@ h3 {
 
  /* Start reference block */
 
+.main__right-side {
+    padding-left: 25px;
+}
+
 .reference {
     padding: 25px 0 25px 40px;
     background: #329fa4;
@@ -239,7 +243,7 @@ h3 {
 }
 
 .exp {
-    padding-left: 25px;
+    margin-bottom: 25px;
 }
 
 .exp-item {
@@ -260,3 +264,55 @@ h3 {
 .exp-info {
     color: #838386;
 }
+
+.skills-boxes {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-name {
+    margin-bottom: 25px;
+}
+
+.skills-pro,
+.skills-pers {
+    width: 40%;
+}
+
+.skill-info {
+    color: #838386;
+    font-size: 16px;
+    width: 175px;
+}
+
+.skill-progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background: #e0e0e0;
+}
+
+.progress-bar>div {
+    height: 100%;
+    background: #303032;
+}
+
+.progress-bar>.html {width: 80%;}
+.progress-bar>.css {width: 80%;}
+.progress-bar>.js {width: 65%;}
+.progress-bar>.nodejs {width: 20%;}
+.progress-bar>.cpp {width: 40%;}
+.progress-bar>.creativity {width: 85%;}
+.progress-bar>.teamwork {width: 90%;}
+.progress-bar>.communication {width: 70%;}
+.progress-bar>.hard-work {width: 85%;}
+.progress-bar>.trainability {width: 90%;}
+
