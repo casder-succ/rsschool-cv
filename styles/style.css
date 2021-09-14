@@ -212,3 +212,28 @@ h3 {
  .education-item:not(:last-child) {
      border-bottom: 3px solid black;
  }
+
+ /* End education  block */
+
+ /* Start reference block */
+
+.reference {
+    padding: 25px 0 25px 40px;
+    background: #329fa4;
+}
+
+.reference-item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.reference-item-text {
+    color: white;
+}
+
+.reference a,
+.reference a:visited,
+.reference a:active {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
