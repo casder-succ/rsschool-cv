@@ -12,6 +12,8 @@ body {
     font-size: 20px;
 }
 
+
+
 p {
     font-weight: 300;
 }
@@ -41,6 +43,7 @@ p {
 .section-title {
     font-size: 40px;
     font-weight: 500;
+    text-transform: uppercase
 }
 .underline {
     position: relative;
@@ -53,8 +56,19 @@ p {
     left: 0;
     bottom: -5px;
     width: 40px;
-    height: 3px;
-    background: white;
+    height: 4px;
+}
+
+h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.years {
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .header {
@@ -74,13 +88,15 @@ p {
 }
 
 .avatar {
-    display: flex;
     max-height: 600px;
     max-width: 475px;
     width: auto;
 }
 
 .avatar__image {
+    height: 600px;
+    width: 475px;
+    object-fit: cover;
     filter: grayscale(100%);
 }
 
@@ -120,6 +136,10 @@ p {
     margin-bottom: 50px;
 }
 
+.about .section-title {
+    text-transform: none;
+}
+
 .contacts {
     display: flex;
     flex-wrap: wrap;
@@ -151,3 +171,44 @@ p {
     color: white;
     font-weight: 500;
 }
+
+/* Start main block */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding-top: 50px;
+}
+
+/* End main block */
+
+/*Start education block */
+
+.education {
+    padding-left: 40px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+
+.education-item-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+ .education-item-name {
+     margin-right: 20px;
+     max-width: 250px;
+ }
+
+ .education-item p:not(.years) {
+     color: #838386;
+ }
+
+ .education-item {
+     padding: 20px 0;
+ }
+
+ .education-item:not(:last-child) {
+     border-bottom: 3px solid black;
+ }
