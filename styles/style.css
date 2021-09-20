@@ -189,7 +189,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.navigation ul {
+.nav-menu {
     display: flex;
     flex-wrap: wrap;
 }
@@ -427,6 +427,26 @@ footer .wrap {
     margin-bottom: 25px;
 }
 
+.nav-burger {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 25px auto;
+    /*display: flex;*/
+    justify-content: space-between;
+    flex-direction: column;
+    display: none;
+}
+
+.line {
+    height: 10px;
+    width: 100%;
+    background: white;
+}
+
+.line-1, .line-2 {
+    /*margin-bottom: 10px;*/
+}
+
 
 @media screen and (max-width: 1050px){
     .header-flex {
@@ -511,4 +531,24 @@ footer .wrap {
         justify-content: space-around;
         flex-direction: column;
     }
+
+    .nav-burger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-menu li {
+        margin: 0 0 15px;
+    }
+
+    .active {
+        display: block;
+    }
+
+    
+
 }
