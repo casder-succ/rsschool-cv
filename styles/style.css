@@ -484,3 +484,31 @@ footer .wrap {
     }
 }
 
+@media screen and (max-width: 630px) {
+    .wrap {
+        width: 90%;
+    }
+
+    .education {
+        padding-left: 0;
+    }
+
+    .header__content {
+        padding-left: 0;
+    }
+
+    .main__right-side {
+        padding-left: 0;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    footer .wrap  {
+
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+}
